@@ -1,5 +1,5 @@
 {
-  "name": "met-react-boot-sand",
+  "name": "met-react-boot-sand-one",
   "private": true,
   "scripts": {
     "preinstall": "curl https://install.meteor.com/ | sh",
