@@ -1,10 +1,11 @@
 {
-  "name": "met-react-boot-sand-v1",
+  "name": "met-react-boot-sand-v1.1",
   "private": true,
   "scripts": {
     "preinstall": "curl https://install.meteor.com/ | sh",
     "preinstall": "npm install",
     "preinstall": "source ~/.bashrc",
+    "preinstall": "npm config set scripts-prepend-node-path auto",
     "start": "npm start",
     "test": "npm run test-server && npm run test-client",
     "test-server": "TEST_CLIENT=0 SERVER_TEST_REPORTER=\"list\" meteor test --once --driver-package meteortesting:mocha --port 3100",
